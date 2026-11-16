@@ -1,0 +1,109 @@
+header{
+	font-family: "Bahnschrift SemiBold";
+	color:fuchsia;
+	background-color:#1E175E;
+	text-align:center;
+	font-size:50px;
+}
+
+body{
+	color:mediumspringgreen;
+	background-color:#191970;
+
+}
+p{ font-family: "Tahona";
+font-size: 20px;
+color: Aquamarine;
+text-align:justify;
+font-size:15px
+}
+.vamosaensayar{
+	font-family:"Bahnschrift SemiBold";
+	font-size:60px;
+	font-style:italic;
+	font-weight:bold;
+	font-variant:small-caps;
+	color:fuchsia;
+	text-align:center;
+	text-decoration:yellow underline wavy;
+	text-shadow:2px 2px 4px #191970;
+	line-height:1,5;
+	background-color:#1E175E;
+}
+table{
+	border-color:#8A2BE2;
+	color:#00AAFF;
+	font-size:20px;
+	border-block-color:#8A2BE2;
+	border-block-end-color:#FFFF00;
+	border-block-width:10px;
+	border-end-end-radius:30px;
+}
+a{
+	font-family: "Tahona";
+font-size: 20px;
+color: 	DarkOrange;
+text-align:justify;
+font-size:30px
+}
+#menuhorizontal ul li{
+		display: inline;
+		padding: 5px 12px; 
+		margin: 5px; 
+		background-color: #1E175E;
+		color: fuchsia;
+		font-family: "Algerian";
+		font-size:"20px";
+	}
+ 
+    #menuhorizontal ul {
+ 
+	border-bottom:50px;
+	border-bottom-style:solid;
+	border-bottom-color:#1E175E;
+	}
+	#menuhorizontal ul li:hover {
+	background-color:#1E175E;
+	cursor: pointer;
+}
+#menuhorizontal ul li a{
+	text-decoration:none;
+	color:inherit;
+}
+#menuD a{ 
+text-decoration:none;
+color:inherit;
+}
+#menuD ul li{
+width:750px;
+height:50px;
+display:inline-block;
+padding:2px 7px;
+margin:5px;
+background-color:#FF00FF;
+color:white;
+text-align:center;
+font-family:"Algerian";
+font-size:16px;
+position:relative;
+}
+#menuD ul li:hover{
+	background-color:yellow;
+	color:purple;
+}
+#menuD li>ul{
+	display:none;
+}
+#menuD li:hover>ul{
+	display:inline-block;
+	position:absolute;
+}
+#menuD ul>li:hover>ul{
+	display:inline-block;
+	position:absolute;
+}
+footer{
+	color:#FF00FF;
+	background-color:#1E175E;
+
+}

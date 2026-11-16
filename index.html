@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"
+<html>
+<head>
+<title>INTELIGENCIA ARTIFICIAL</title>
+<link href="iconoia.png" rel="icon" />
+<link href="estilo.css" rel="stylesheet" type="text/css">
+Astrid Beatriz Arias Rodríguez.
+<BR>
+<link href="animacion.css" rel="stylesheet" type="text/css">
+<script src="processing.js"></script>
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#FF00FF);
+  textSize(50);
+}
+void draw(){
+  background(#FF00FF);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+<canvas id="pjsCanvas" >h</canvas></div>
+
+
+
+</head>
+<main>
+<p id="puntodos"> </p>
+</main>
+
+<body><header>En esta página web hablaremos sobre la IA</header>
+<center><div id="html"><img id="html" src="portada.png"></div></center>
+
+<br> <b>Antes de nada, algo de musica por si quieres escuchar algo mientras lees.</b>
+<center><br><audio src="music.mp3" controls></audio></center>
+<center><br><audio src="musicab.mp3" controls></audio></center> 
+<br><nav id="menuhorizontal">
+ <ul>
+<li><a href="#tipos"> Tipos y subtipos de IA.</a></li>
+<li><a href="#aplicaciones"> Aplicaciones de la IA.</a></li>
+<li><a href="#historia"> Historia de la IA.</a></li>
+<li><a href="#enlaces"> Enlaces de interés.</a></li>
+<li><a href="#video"> Video sobre informática.</a></li>
+<li><a href="#sitios"> Sitios que visitar.</a></li>
+
+
+</ul></nav>
+  <div id="aviso"> ¿QUÉ ES LA IA?</div>
+<br> <b>La inteligencia artificial (IA) es un campo de la informática que crea sistemas y máquinas capaces de realizar tareas que normalmente requieren inteligencia humana.</b>
+
+<center><table border="2"><p id="tipos"> <center> <big><big><big><big><big><big><big>Tipos y subtipos de IA</big></big></big></big></big> </big></big></center></p>
+<tr><td colspan="3">1.Según su capacidad (Nivel de evolución e inteligencia)</td></tr>
+<td><br><MARK>IA Estrecha o Débil (ANI - Artificial Narrow Intelligence): </MARK> 
+ Es la única que existe y usamos en la actualidad. Está diseñada para realizar una tarea específica o un conjunto muy acotado de funciones de manera excelente, pero no tiene conciencia ni puede "pensar" fuera de su área. Por ejemplo sistentes de voz (Siri, Alexa), los algoritmos de recomendación de Netflix o Spotify, los filtros de spam y los sistemas de reconocimiento facial.  l</td>
+<td><br><MARK>IA General o Fuerte (AGI - Artificial General Intelligence)</MARK>  : Es un nivel teórico de IA que equivaldría a la inteligencia humana. Sería capaz de aprender, razonar, planificar y resolver cualquier problema intelectual en diversos campos de la misma forma que lo haría una persona. Todavía no existe; es objeto de investigación científica.
+  </td>
+<td><br><MARK>Superinteligencia Artificial (ASI - Artificial Superintelligence)</MARK>  : Un concepto hipotético en el que la IA superaría ampliamente las capacidades cognitivas, la creatividad y la toma de decisiones de toda la humanidad combinada. Es puramente teórica y futurista.  </td></tr>
+
+
+<tr><td colspan="4">2.Según su funcionalidad y arquitectura (Cómo procesan la información)</td></tr>
+<td><br><MARK>Máquinas reactivas:</MARK> El tipo más básico. No tienen memoria ni capacidad de aprender de experiencias pasadas; solo responden a estímulos en el presente basándose en reglas fijas por ejemplo: Deep Blue, el ordenador de ajedrez de IBM que derrotó a Garry Kasparov calculando jugadas al momento sin recordar partidas anteriores. </td>
+<td><br><MARK>Teoría de la mente:</MARK>  Nivel en desarrollo que implicaría que la IA sea capaz de comprender las emociones, creencias, intenciones y necesidades de los seres humanos, adaptando su comportamiento a ellos de forma empática.</td>
+<td><br><MARK>Memoria limitada:</MARK>  Sistemas que pueden almacenar y utilizar datos e interacciones recientes durante un tiempo para tomar mejores decisiones. Es la base de casi toda la tecnología avanzada de hoy. Algunos ejemplos son los vehículos autónomos (que recuerdan la velocidad y posición de otros coches en la carretera durante un trayecto) y los modelos de lenguaje actuales.   </td>
+<td><br><MARK>Autoconciencia:</MARK> El peldaño más avanzado y estrictamente hipotético. Se refiere a máquinas que tendrían consciencia de su propia existencia, sentimientos y pensamientos propios.</td></tr>
+
+<tr><td colspan="3">3. Según su tecnología de aprendizaje (Subtipos prácticos)</td></tr>
+ <td><br><MARK>Machine Learning (Aprendizaje automático):</MARK>Algoritmos que aprenden patrones a partir de grandes volúmenes de datos en lugar de ser programados explícitamente paso a paso. 
+
+<p>Supervisado: Aprende con datos etiquetados por humanos. </p>
+<p>No supervisado: Encuentra estructuras ocultas en datos sin clasificar.</p> 
+<p>Por refuerzo: Aprende a base de prueba y error mediante un sistema de recompensas y castigos (muy usado en robótica y videojuegos).</p></td>
+<td><br><MARK>Deep Learning (Aprendizaje profundo):</MARK>subtipo avanzado de Machine Learning basado en redes neuronales artificiales que imitan de forma muy simplificada las conexiones del cerebro humano. Permite procesar datos complejos como imágenes, audios y textos largos.</td> 
+ <td><br><MARK>IA Generativa:</MARK>subtipo impulsado por Deep Learning capaz de crear contenido nuevo y original (textos, imágenes, código, música o vídeos) a partir de las instrucciones (prompts) que le da el usuario.</td></tr>
+ 
+
+
+ 
+ 
+ 
+ 
+ <center><table border="2"><p id="aplicaciones">  <center><big><big><big><big><big><big><big>Aplicaciones de la IA</big></big></big></big></big></big></big> </center></p>
+<tr><td colspan="3">Ética en la IA: Estudio de los problemas morales y sociales derivados del uso de la IA.
+ Ejemplo: La preocupación sobre el uso de IA en la vigilancia masiva y la privacidad.</td></tr>
+<tr><td colspan="3">IA en la medicina: Uso de la inteligencia artificial para apoyar en diagnósticos médicos, predicciones de enfermedades y tratamiento personalizado.
+Ejemplo: Herramientas de IA que analizan radiografías para detectar tumores o enfermedades pulmonares.</td></tr>
+<tr><td colspan="3">Ciberseguridad y IA: Uso de IA para mejorar la seguridad en línea mediante la detección de amenazas y la protección de datos.
+Ejemplo: Los sistemas de IA que detectan patrones de ataques informáticos y bloquean posibles intrusiones.</td></tr>
+<tr><td colspan="3">IA en Finanzas: Aplicación de IA en la predicción de mercados, la detección de fraudes y la gestión de riesgos.
+Ejemplo: Algoritmos que predicen movimientos del mercado de valores basándose en datos históricos.</td></tr>
+<tr><td colspan="3">IA en Educación: Uso de la IA para personalizar el aprendizaje y mejorar la experiencia educativa.
+Ejemplo: Plataformas de aprendizaje como Duolingo, que personalizan los ejercicios según el rendimiento del usuario.</td></tr>
+<tr><td colspan="3">IA en Marketing: Uso de IA para personalizar campañas publicitarias y mejorar la experiencia de compra del cliente.
+ Ejemplo: Herramientas que analizan los comportamientos de compra para ofrecer anuncios personalizados.</td></tr>
+<tr><td colspan="3">IA en la Agricultura: Aplicación de IA en la predicción de cosechas, monitoreo de cultivos y optimización de recursos.
+Ejemplo: Drones equipados con IA que analizan el estado de los cultivos y detectan plagas.</td></tr>
+<tr><td colspan="3">IA en Logística: Uso de IA para optimizar la gestión de inventarios y la distribución de productos.
+Ejemplo: Sistemas que gestionan el almacén de Amazon y planifican las rutas de entrega.</td></tr>
+<tr><td colspan="3">IA en el Arte: Aplicación de la IA para crear música, pinturas, literatura, etc.
+Ejemplo: Programas de IA que componen música basada en estilos de compositores famosos.</td></tr>
+<tr><td colspan="3">IA en el Entretenimiento: Uso de IA para crear contenido dinámico y personalizado para los usuarios.
+Ejemplo: Algoritmos de IA que crean música o guiones basados en el análisis de gustos del público.</td></tr>
+<tr><td colspan="3">Inteligencia Artificial en Videojuegos: IA que permite que los personajes no jugables (NPC) reaccionen y tomen decisiones autónomamente.
+Ejemplo: NPCs en videojuegos de rol que toman decisiones basadas en las acciones del jugador.</td></tr>
+
+ 
+ 
+ 
+</table></center>
+<a href="#puntodos">Volver  al inicio</a>
+
+<p id="puntotres"> </p>
+<p id="historia"></p> <p class="vamosaensayar">HISTORIA DE LA INTELIGENCIA ARTIFICIAL</p class> 
+
+<nav id="menuD"><ul><li>Historia<ul></li>
+<li><a href="indextres.html">Más sobre la IA aquí.</a></li>
+<li><a "enlace a fahro index">Índice de fechas<ul></a></li>
+<li><a href="#1950">La Consolidación de una Disciplina (1950 - 1956)</a></li>
+<li><a href="#1960">La Era de los Algoritmos y el Primer "Invierno" (1960 - 1980)</a></li>
+<li><a href="#1980">El Renacimiento Silencioso y los Sistemas Expertos (1980 - 1995)</a></li>
+<li><a href="#XXI">El Renacimiento del Siglo XXI y el Aprendizaje Profundo</a></li>
+<li><a href="#generativa">La Era de la IA Generativa</a></li>
+<li><a href="#2021">La Revolución de la Multimodalidad (2021 - Presente)</a></li>
+
+</nav>
+<br><br><br><br><br><br><br><br><br><br>
+<center><div id="html"><img id="html" src="historia.png"></div></center>
+
+
+
+ 
+ <BR><UL>
+<LI TYPE="SQUARE"><p id="1950"><b><a><big><big> La Consolidación de una Disciplina (1950 - 1956)</big></big></b></a></p> </LI>
+
+<big><big>El giro decisivo hacia el rigor científico ocurrió tras la Segunda Guerra Mundial. En 1950, Alan Turing planteó la pregunta fundamental: "¿Pueden pensar las máquinas?",
+proponiendo su famoso test como medida de inteligencia. Pero fue en 1956, durante la histórica Conferencia de Dartmouth, cuando la disciplina recibió formalmente su nombre.
+Figuras como John McCarthy, Marvin Minsky, Nathaniel Rochester y Claude Shannon sentaron las bases teóricas, definiendo la Inteligencia Artificial (IA) como el intento de simular
+cada aspecto del aprendizaje o cualquier otra característica de la inteligencia.</big></big>
+
+
+
+<LI TYPE="SQUARE"><p id="1960"><b><a><big><big> La Era de los Algoritmos y el Primer "Invierno" (1960 - 1980)</big></big></b></p> </a></LI>
+<big><big>Durante las décadas de 1960 y 1970, el entusiasmo inicial dio lugar al desarrollo de los primeros sistemas basados en reglas y lógica simbólica. Surgieron hitos como ELIZA,
+el primer chatbot, y sistemas expertos diseñados para resolver problemas específicos en medicina o geología. No obstante, los investigadores pronto chocaron con la "barrera de la complejidad":
+
+Capacidad de hardware: Los procesadores de la época eran incapaces de manejar cálculos masivos.
+
+Limitación de datos: La información necesaria para alimentar estos sistemas era escasa y difícil de digitalizar.
+Esta brecha entre las expectativas y los resultados reales condujo a periodos de desilusión y recortes de financiación conocidos como los "Inviernos de la IA".</big></big></LI>
+
+
+
+<LI TYPE="SQUARE"><p id="1980"> <b><a><big><big>El Renacimiento Silencioso y los Sistemas Expertos (1980 - 1995)</big></big></b></a></p> </LI>
+<big><big>Antes de que llegáramos al Deep Learning masivo, la IA tuvo un segundo aire impulsado por el sector corporativo. En lugar de intentar imitar la inteligencia general humana, los investigadores se centraron en el conocimiento especializado.
+
+<UL><LI TYPE="CIRCLE"> Sistemas Expertos: Se crearon programas que imitaban la toma de decisiones de un experto humano (como un médico o un ingeniero) mediante miles de reglas "si-entonces". Fue el primer gran éxito comercial de la IA. </LI>
+<LI TYPE="CIRCLE"> El Regreso de las Redes Neuronales: Mientras el mundo se enfocaba en reglas lógicas, en las sombras, figuras como Geoffrey Hinton trabajaban en el algoritmo de retropropagación (backpropagation). Este avance permitió que las redes neuronales empezaran a aprender de sus errores de forma mucho más eficiente, aunque todavía faltaba la potencia de cálculo para demostrar su verdadero potencial. </big></big></LI>
+ </LI></UL><br>
+
+
+
+
+<LI TYPE="SQUARE"><p id="XXI"> <b><a><big><big>El Renacimiento del Siglo XXI y el Aprendizaje Profundo</big></big> </b></a></p></LI>
+<big><big>A partir del año 2000, el paradigma cambió radicalmente. La IA abandonó la programación rígida de reglas para abrazar el Machine Learning (Aprendizaje Automático),
+donde la máquina aprende patrones a partir de la experiencia. El verdadero salto cuantitativo llegó con el Deep Learning (Aprendizaje Profundo), inspirado en la estructura de las redes neuronales biológicas.ste resurgimiento fue impulsado por una "tormenta perfecta" de tres factores:
+
+<UL><LI TYPE="CIRCLE"> Big Data: La explosión de internet proporcionó un océano de datos para el entrenamiento. </LI>
+<LI TYPE="CIRCLE">Poder Computacional: El uso de GPUs (unidades de procesamiento gráfico) permitió realizar billones de operaciones por segundo. </LI>
+
+<LI TYPE="CIRCLE">Innovación Arquitectónica: El desarrollo de las redes de "transformadores" en 2017 revolucionó la forma en que las máquinas comprenden el contexto.
+ </big></big></LI>
+ </LI></UL><br>
+
+
+<LI TYPE="SQUARE"><p id="generativa"> <b><a><big><big>La Era de la IA Generativa </big></big></b></a></p></LI>
+
+<big><big>En la actualidad, hemos pasado de sistemas que simplemente clasifican datos a sistemas que crean. Modelos de lenguaje a gran escala, como GPT-3 y sus sucesores,
+han demostrado hitos asombrosos en el procesamiento de lenguaje natrual (NLP). Gracias al aprendizaje few-shot —la capacidad de realizar tareas nuevas con mínimos ejemplos—,
+estas herramientas no solo generan texto coherente y código de programación, sino que actúan como colaboradores creativos, marcando el inicio de una era donde la frontera entre la herramienta y
+el agente inteligente es cada vez más difusa.</big></big>
+
+
+
+<LI TYPE="SQUARE"><p id="2021"><b> <a><big><big>La Revolución de la Multimodalidad (2021 - Presente)</big></big></b></a></p></LI><big><big>Si el hito de 2017 fueron los Transformadores aplicados al texto, el gran salto actual es la capacidad de la IA para "cruzar" sentidos. Ya no estamos limitados a procesar píxeles por un lado y palabras por otro.
+<UL><LI TYPE="CIRCLE">Espacios Latentes Compartidos: Modelos como CLIP (de OpenAI) permitieron que las máquinas entendieran que la palabra "perro" y la imagen de un Golden Retriever son lo mismo en un nivel matemático abstracto. Esto dio origen a herramientas como DALL-E, Midjourney y Stable Diffusion. </LI>
+
+<LI TYPE="CIRCLE">De la Generación de Texto a la Generación de Mundo: Hemos pasado de modelos que predicen la siguiente palabra a modelos que generan video coherente (como Sora) y audio hiperrealista, permitiendo una interacción natural donde la IA puede "ver" a través de una cámara y responder con voz emocional en tiempo real.
+ </big></big></LI>
+ </LI></UL><br>
+<a href="#puntotres">Volver al índice de fechas.</a>
+<a href="#puntodos">Volver  al inicio</a>
+
+
+<p id="enlaces"></p><CENTER><BIG><BIG><B><I><U><a>ENLACES QUE PODRÍAN INTERESARTE</a><BR></B></I></U></BIG></BIG></CENTER>
+
+<center>
+<a href="https://www.google.com/"target="blank">pulsa aquí para acceder a Google </a><br>
+<p><center>Algunas IA que podrían interesarte para preguntar tú mismo:</center></p>
+<a href="https://chatgpt.com/es-ES/"target="blank">ChatGPT </a><br>
+
+<a href="https://www.perplexity.ai/"target="blank">Perplexity </a><br>
+
+<a href="https://gemini.google.com/app?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330500&gbraid=0AAAAApk5BhmG9-aZUnpk9HNjUkWMQO1nF"target="blank">Gemini </a><br>
+
+
+<p id="video"></p><CENTER><BIG><BIG><B><I><U><a>VIDEO EXPLICATIVO SOBRE INFORMÁTICA</a><BR></B></I></U></BIG></BIG></CENTER>
+<video src="katseye.mp4" controls></video>
+<p id="sitios"></p><CENTER><BIG><BIG><B><I><U><a>SITIOS QUE VISITAR</a><BR></B></I></U></BIG></BIG></CENTER>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.5777849403644!2d-118.24925929999999!3d34.0547001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7d930803aa5%3A0xabb78b9d27d2d077!2sDataland!5e0!3m2!1ses!2ses!4v1794395174123!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11899316.458608832!2d-11.915164149999981!3d43.27014340000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e51aefe13e699%3A0xe5c7c338e775b6aa!2sNext%20Museum%20Bilbao!5e0!3m2!1ses!2ses!4v1794395340490!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><CENTER><a href="#puntodos">Volver  al inicio</a></CENTER></p>
+
+</body>
+<footer>
+<BIG><BIG><BIG><BIG>¡HASTA LA PRÓXIMA!</BIG></BIG></BIG></BIG>
